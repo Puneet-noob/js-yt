@@ -28,5 +28,35 @@ console.log(stringNumber)
 console.log(typeof stringNumber)
 
 
+// Operations 
 
+let posValue = 3
+let negValue = -posValue
+console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(4/2)
+// console.log(3%2)
+
+let str1 = "pro"
+let str2 = " js"
+
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("******")
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + "2")
+console.log("1" + 2 + 3)
+console.log(1 + 2 + "3")
+
+console.log("#######")
+
+console.log(+true)
+console.log(+"");
 
