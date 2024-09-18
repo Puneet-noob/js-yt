@@ -37,3 +37,24 @@ const myFunc = function(){
 console.log(typeof alphas)
 console.log(typeof myObj)
 console.log(typeof myFunc)
+
+// ################################
+
+// Stack(Primitive) and Heap memory(Reference)
+let ytName = "hiteshdotcom"
+let anotherYtName = ytName;
+anotherYtName = "dotcom"
+
+console.log(ytName)
+console.log(anotherYtName)
+
+let userOne = {
+    email: "hitesh@google.com",
+    upi: "hitesh@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hit@msf.com"
+console.log(userOne.email)
+console.log(userTwo.email)
